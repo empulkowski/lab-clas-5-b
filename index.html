@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+    <style>
+
+h1 {
+    text-transform: uppercase;
+    font-style: normal;
+    color: darkslategrey;
+}
+
+body {
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+th {
+    text-align: left;
+}
+
+#itemTotal {
+    text-transform: uppercase;
+    color: darkslategrey;
+}
+
+table {
+    border: 1px solid black;
+    padding: 20px;
+}
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+
+<h1>Order Form</h1>
+
+<table style="width:50%">
+    <tr id="mainHeaders">
+        <th>qty</th>
+
+        <th>price</th>
+        <th>total</th>
+    </tr>
+
+    <tr>
+        <td><input type="number" name="itemQuantity" id="learningQty" min="0" max="10000">
+            <label for="learningQty">Learning jQuery</label></td>
+        <td>$39.99</td>
+        <td id="total">total</td>
+    </tr>
+
+    <tr>
+        <td><input type="number" name="itemQuantity" id="jqueryDonation" min="0" max="10000">
+            <label for="jqueryDonation">jQuery Donation</label></td></td>
+        <td>$14.99</td>
+        <td id="itemTotal">total</td>
+    </tr>
+
+    <tr id="grand">
+        <th></th>
+        <th>Grand Total</th>
+        <th id="grandTotal">Grand total</th>
+
+    </tr>
+
+</table>
+
+
+
+<!--<input type="number" name="book" id="learning" value="0" data-price="$39.99" >
+<label for="learning">Learning jQuery</label>
+    <br>
+
+<input type="number" name="book" id="donation" value="0" data-price="$14.99">
+<label for="donation">Learning jQuery</label><-->
+
+
+
+
+
+
+
+</body>
+</html>
